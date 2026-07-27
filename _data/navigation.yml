@@ -15,7 +15,4 @@ main:
     url: /publications/
 
   - title: "学习笔记"
-    url: https://proooooz.github.io/stellar-aurora/
-
-  - title: "GitHub"
-    url: https://github.com/proooooz
+    url: /notes/

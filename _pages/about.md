@@ -29,4 +29,4 @@ redirect_from:
 - 逐步形成工作论文与公开研究成果
 - 持续更新个人简历、项目与论文列表
 
-欢迎通过[电子邮件](mailto:wujiangyu404@gmail.com)或 [GitHub](https://github.com/proooooz) 与我交流。
+欢迎通过[电子邮件](mailto:wujiangyu404@gmail.com)与我交流。
