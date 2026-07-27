@@ -23,7 +23,7 @@ repository               : "proooooz/proooooz.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Wujiangyu404"
   pronouns         : # example: "she/her"  
   bio              : "广东药科大学商科本科生，关注商业分析、数字经济与数据驱动决策。"
