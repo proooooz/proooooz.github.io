@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "zh-CN"
 site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Wujiangyu404 | 学术主页"
+title                    : "吴疆宇 | 学术主页"
 title_separator          : "-"
-name                     : &name "Wujiangyu404"
-description              : &description "Wujiangyu404 的个人学术主页，记录商业学习、研究兴趣与项目成果。"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "吴疆宇"
+description              : &description "吴疆宇的个人学术主页，记录经济学学习、研究兴趣与项目成果。"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://proooooz.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,11 +24,11 @@ repository               : "proooooz/proooooz.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Wujiangyu404"
+  name             : "吴疆宇"
   pronouns         : # example: "she/her"  
-  bio              : "广东药科大学商科本科生，关注商业分析、数字经济与数据驱动决策。"
+  bio              : "广东药科大学医药商学院本科生，研究兴趣仍在探索中，关注宏观经济、国际经济与环境经济学等方向。"
   location         : "中国 · 广东"
-  employer         : "广东药科大学"
+  employer         : "广东药科大学医药商学院"
   uri              :
   email            : "wujiangyu404@gmail.com"
 
@@ -149,7 +149,7 @@ og_description           :  # Social media default site image description
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Person
-  name                   : "Wujiangyu404"
+  name                   : "吴疆宇"
   links                  : []
 
 
