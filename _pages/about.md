@@ -2,8 +2,6 @@
 layout: about
 title: 关于
 permalink: /
-nav: true
-nav_order: 1
 subtitle: 广东药科大学医药商学院本科生
 
 profile:
