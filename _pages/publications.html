@@ -1,16 +1,19 @@
 ---
 layout: archive
-title: "Publications"
+title: "论文与研究成果"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">你也可以在 <a href="{{site.author.googlescholar}}">Google Scholar</a> 查看我的论文。</div>
 {% endif %}
 
 {% include base_path %}
 
+{% if site.publications.size == 0 %}
+  <p>目前暂无公开发表论文。后续将在此更新课程研究、工作论文、会议论文与正式发表成果。</p>
+{% else %}
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -31,6 +34,4 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
+{% endif %}
