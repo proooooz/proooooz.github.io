@@ -8,6 +8,10 @@ nav_order: 4
 
 这里整理我在学习和研究过程中使用的课程、数据、工具与参考资料，内容会持续更新。
 
+## QSE模型
+
+1. [**山岸笃史**](https://sites.google.com/site/econyamagishi/teaching)
+
 ## 课程与教材
 
 用于记录值得学习的课程、教材与讲义。
