@@ -17,6 +17,13 @@ nav_order: 4
 1. [刘岩](https://www.liuyanecon.com/) — [Advanced Macro I 2025](https://www.liuyanecon.com/adv-macro-i-2025/)
 2. MIT — [宏观经济理论 I](https://ocw.mit.edu/courses/14-451-macroeconomic-theory-i-spring-2007/)（[课程大纲](https://ocw.mit.edu/courses/14-451-macroeconomic-theory-i-spring-2007/pages/syllabus/)）
 3. [_托马斯·J·萨金特_](https://www.tomsargent.com/) — [**动态规划**](https://dp.quantecon.org/index.html)
+4. [_托马斯·J·萨金特_](https://www.tomsargent.com/) — [QuantEcon](https://quantecon.org/)
+
+## HANK
+
+1. [本杰明·莫尔](https://benjaminmoll.com/lectures/)
+2. [**2026年歌德学院异构代理宏观研讨会**](https://github.com/shade-econ/goethe-workshop-2026)
+3. [葡萄牙银行：异质主体下的财政和货币政策](https://web.stanford.edu/~aauclert/bopmini/)
 
 ## 数学
 
