@@ -40,6 +40,7 @@ nav_order: 4
 ## 会议
 
 1. [**CREI**](https://crei.cat/)
+2. [经济动态学会年会](https://economicdynamics.org/)（SED）
 
 ## 数学
 
