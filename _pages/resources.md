@@ -10,20 +10,15 @@ nav_order: 4
 
 ## QSE模型
 
-1. [**山岸笃史**](https://sites.google.com/site/econyamagishi/teaching)
+1. [**山岸笃史**](https://sites.google.com/site/econyamagishi/teaching) — **応用ミクロ経済学B（都市・空間経済学）**
 
-## 课程与教材
+## 高级宏观经济学
 
-用于记录值得学习的课程、教材与讲义。
+1. [刘岩](https://www.liuyanecon.com/) — [Advanced Macro I 2025](https://www.liuyanecon.com/adv-macro-i-2025/)
+2. MIT — [宏观经济理论 I](https://ocw.mit.edu/courses/14-451-macroeconomic-theory-i-spring-2007/)（[课程大纲](https://ocw.mit.edu/courses/14-451-macroeconomic-theory-i-spring-2007/pages/syllabus/)）
+3. [_托马斯·J·萨金特_](https://www.tomsargent.com/) — [**动态规划**](https://dp.quantecon.org/index.html)
 
-## 数据资源
+## 数学
 
-用于整理常用数据库、公开数据与数据获取渠道。
-
-## 研究工具
-
-用于汇总数据分析、文献管理与可复现研究工具。
-
-## 学术写作
-
-用于收藏论文阅读、研究设计与学术写作资源。
+1. MIT — [**实分析**](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/)
+2. MIT — [泛函分析导论](https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/)
