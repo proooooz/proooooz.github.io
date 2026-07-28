@@ -25,6 +25,13 @@ nav_order: 4
 2. [**2026年歌德学院异构代理宏观研讨会**](https://github.com/shade-econ/goethe-workshop-2026)
 3. [葡萄牙银行：异质主体下的财政和货币政策](https://web.stanford.edu/~aauclert/bopmini/)
 
+## 经济学家
+
+1. [阿德里安·奥克莱特](https://aauclert.people.stanford.edu/)（[**斯坦福大学经济系**](https://economics.stanford.edu/)）
+2. [刘岩](https://www.liuyanecon.com/)（中山大学[管理学院](https://bschool.sysu.edu.cn/)）
+3. [徐一清](https://yiqingxu.org/)（斯坦福大学政治学系）
+4. [陈硕](https://www.frankchenshuo.com/aboutme.html)（复旦大学经济系）
+
 ## 数学
 
 1. MIT — [**实分析**](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/)
