@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://proooooz.github.io/sitemap.xml
