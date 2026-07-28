@@ -2,7 +2,6 @@
 layout: page
 permalink: /publications/
 title: 论文与研究成果
-description: 吴疆宇的工作论文与研究成果
 nav: true
 nav_order: 2
 ---
