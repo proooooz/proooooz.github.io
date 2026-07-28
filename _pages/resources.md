@@ -12,6 +12,10 @@ nav_order: 4
 
 1. [**山岸笃史**](https://sites.google.com/site/econyamagishi/teaching) — **応用ミクロ経済学B（都市・空間経済学）**
 
+## 计量经济学
+
+1. [刘岩](https://www.liuyanecon.com/) — [本科—计量经济学 2025](https://www.liuyanecon.com/ug-em-2025/)
+
 ## 高级宏观经济学
 
 1. [刘岩](https://www.liuyanecon.com/) — [Advanced Macro I 2025](https://www.liuyanecon.com/adv-macro-i-2025/)
@@ -31,6 +35,11 @@ nav_order: 4
 2. [刘岩](https://www.liuyanecon.com/)（中山大学[管理学院](https://bschool.sysu.edu.cn/)）
 3. [徐一清](https://yiqingxu.org/)（斯坦福大学政治学系）
 4. [陈硕](https://www.frankchenshuo.com/aboutme.html)（复旦大学经济系）
+5. [艾萨克·贝利](https://www.isaacbaley.com/)（[**庞培法布拉大学**](https://www.upf.edu/es/web/econ/profesores/-/asset_publisher/6aWmmXf28uXT/content/baley-isaac/maximized)）
+
+## 会议
+
+1. [**CREI**](https://crei.cat/)
 
 ## 数学
 
