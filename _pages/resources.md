@@ -44,7 +44,8 @@ nav_order: 4
 2. [刘岩](https://www.liuyanecon.com/)（中山大学[管理学院](https://bschool.sysu.edu.cn/)）
 3. [徐一清](https://yiqingxu.org/)（斯坦福大学政治学系）
 4. [陈硕](https://www.frankchenshuo.com/aboutme.html)（复旦大学经济系）
-5. [艾萨克·贝利](https://www.isaacbaley.com/)（[**庞培法布拉大学**](https://www.upf.edu/es/web/econ/profesores/-/asset_publisher/6aWmmXf28uXT/content/baley-isaac/maximized)）
+5. [**西蒙·谢德格尔**](https://sischei.github.io/)（[**洛桑高等商学院经济系**](https://www.unil.ch/de/home.html)）
+6. [艾萨克·贝利](https://www.isaacbaley.com/)（[**庞培法布拉大学**](https://www.upf.edu/es/web/econ/profesores/-/asset_publisher/6aWmmXf28uXT/content/baley-isaac/maximized)）
 
 ## 会议
 
