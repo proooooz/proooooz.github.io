@@ -184,3 +184,59 @@ nav_order: 5
       <summary>详细介绍</summary>
       <p><em>Global Sanctions Data Base（GSDB）</em> 是由 Drexel University 等机构研究团队建设的全球经济制裁数据库，用于系统记录世界各国之间实施的双边、多边及复边经济制裁。最新版 GSDB-R5 将样本覆盖期扩展至 1950—2025 年，共收录 1,794 个制裁案例，并进一步记录制裁的实施方、目标方、实施与终止时间、制裁类型、政治目标及制裁成功程度等信息。数据库同时提供案例层面（case-specific）和双边国家对层面（dyadic）的数据结构，适合构建“制裁国—目标国—年份（月度）”指标，用于识别国家间经济制裁关系和地缘政治冲突强度，广泛应用于国际贸易、跨国投资、全球供应链、地缘政治风险和国际政治经济学研究。</p>
     </details>
+
+22. **_WITS / UNCTAD-TRAINS_ 世界综合贸易解决方案**
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>World Integrated Trade Solution（WITS）</em> 由世界银行联合 UNCTAD 等机构开发，是国际贸易政策研究中重要的综合数据平台。WITS 整合 UN Comtrade、UNCTAD-TRAINS 以及 WTO 关税数据，可提供双边进出口、最惠国关税、优惠关税及非关税措施等信息，并支持 HS、SITC、BEC、ISIC 等多种商品分类。其中，TRAINS 覆盖 160 多个国家的关税与非关税措施，可在国家关税线层面识别贸易保护政策，广泛应用于关税、贸易协定、非关税壁垒及市场准入研究。</p>
+    </details>
+
+23. **_ITPD-E_ 国际贸易与生产数据库**
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>International Trade and Production Database for Estimation（ITPD-E）</em> 由美国国际贸易委员会（USITC）建设，专门服务于贸易引力模型和一般国际贸易实证研究。最新版数据覆盖 1986—2023 年、266 个国家和 170 个行业，同时提供国际双边贸易与一国国内贸易数据，涵盖农业、制造业、采矿、能源和服务业。与只记录国际贸易流量的数据库相比，ITPD-E 能够同时识别“国内销售”和“跨境销售”，特别适用于结构引力模型、边境效应以及国际贸易成本研究。</p>
+    </details>
+
+24. **_OECD ICIO / TiVA_ 全球价值链数据库**
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>OECD Inter-Country Input-Output（ICIO）</em> 数据库通过连接各国投入产出表和双边贸易数据，构建全球生产与贸易网络，并进一步生成 <em>Trade in Value Added（TiVA）</em> 增加值贸易指标。最新版 TiVA 2025 版覆盖 1995—2022 年 80 个经济体和 50 个经济活动部门，可测算出口中的国内增加值、国外增加值、服务增加值以及全球价值链前向和后向参与度等指标。该数据库广泛应用于全球价值链、供应链依赖、产业关联、贸易增加值和国际生产分工研究。</p>
+    </details>
+
+25. **_Global Trade Alert（GTA）_ 全球贸易政策数据库**
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>Global Trade Alert（GTA）</em> 是全球贸易和产业政策事件数据库，持续记录各国实施的关税、补贴、出口限制、进口限制、公共采购、投资限制以及其他贸易和产业政策措施。当前数据库收录 8.5 万余项政策干预，覆盖 60 多个主要经济体，自 2008 年全球金融危机以来持续更新，并记录政策宣布、实施时间、实施国、受影响国家、产品和行业等信息。GTA 可用于构建贸易保护主义、产业补贴、出口管制及双边贸易政策冲击指标，特别适合贸易战、供应链重构和地缘政治经济研究。</p>
+    </details>
+
+26. **_Eora MRIO_ 全球多区域投入产出数据库**
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>Eora Global Supply Chain Database</em> 是全球覆盖范围较广的多区域投入产出数据库（MRIO），通过连接各国投入产出表构建全球产业间投入与贸易关系。最新版 Eora2 覆盖约 190 个国家、1990—2024 年，并同时提供环境卫星账户，可追踪产品与增加值在不同国家和行业之间的跨境流动。数据库适用于测算全球价值链位置、供应链依赖、隐含碳排放、贸易增加值以及国际产业关联等指标。</p>
+    </details>
+
+27. **_BvD Orbis_ 全球企业数据库**
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>Orbis</em> 原为 Bureau van Dijk（BvD）旗下核心全球企业数据库，现由 Moody’s 提供，主要收集全球上市及非上市企业的基本信息、财务报表、所有权结构、企业集团关系、行业分类、并购及对外投资等数据。根据 Moody’s 2026 年最新资料，Orbis 已覆盖全球 6.35 亿家以上企业和实体，数据来自 170 多个信息提供方，其中绝大多数为非上市企业。数据库对不同国家会计口径和行业分类进行标准化处理，并提供股东、子公司、最终所有者及历史所有权关系等信息，特别适用于跨国企业、企业生产率、所有权结构、对外直接投资、跨国并购和全球价值链等微观研究。Orbis 的突出特点是同时覆盖上市公司、大量非上市公司与所有权关系，因此相比主要面向上市公司的财务数据库，它尤其适合研究全球非上市企业和跨国公司集团结构。Orbis 还直接整合了 Orbis M&amp;A，可进一步连接企业财务数据与并购交易数据。</p>
+    </details>
+
+28. **_Worldscope Fundamentals_ 全球上市公司财务数据库**
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>Worldscope Fundamentals</em> 是目前由 LSEG（London Stock Exchange Group）提供的全球上市公司标准化财务数据库，历史上曾隶属于 Thomson Reuters / Refinitiv 数据体系。数据库系统整理企业年度及中期财务报表、每股指标、财务比率、企业基本信息和证券信息，并按照统一标准对不同国家和会计制度下的财务数据进行标准化，以增强企业之间的跨国可比性。LSEG 公开资料显示，Worldscope 覆盖约 10 万家活跃及历史企业、125 个以上市场，约占全球股票市场市值的 96%，历史数据最早可追溯至 20 世纪 80 年代。其主要变量包括总资产、营业收入、利润、负债、现金流、资本支出、研发投入，以及 ROA、ROE、Leverage、Tobin’s Q、Firm Size 等企业财务指标，适用于公司金融、国际投资、企业出口、跨国并购、企业创新和资本市场研究。目前 LSEG 正在通过 Company Fundamentals 将 Worldscope 与原 LSEG Financials 进一步整合。</p>
+    </details>
+
+29. <strong><em>BvD OSIRIS / Osiris_Export</em> 全球上市公司数据库</strong>
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>OSIRIS</em> 是 Bureau van Dijk（BvD，现属 Moody’s）建设的全球上市公司财务与证券数据库，主要收录全球证券交易所上市公司及部分退市公司的企业信息。数据库提供企业基本信息、标准化历史财务报表、财务比率、股权与股东结构、子公司关系、股票价格与估值指标、盈利预测、信用评级以及行业和竞争者信息等，可通过 ISIN、Ticker、CIK 等企业标识进行匹配。OSIRIS 特别强调跨国财务数据的标准化处理，适合构建“企业—年份”全球上市公司面板，广泛应用于公司金融、国际投资、跨国企业、资本结构、企业绩效和公司治理等研究。BvD 官方目前仍将 OSIRIS 定位为“全球上市公司”数据库。</p>
+    </details>
