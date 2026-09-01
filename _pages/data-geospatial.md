@@ -24,6 +24,18 @@ nav: false
   .resource-details p {
     margin-top: 0.75rem;
   }
+
+  .resource-figure {
+    margin: 1.5rem 0 2rem;
+  }
+
+  .resource-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--global-divider-color, #dddddd);
+    border-radius: 0.5rem;
+  }
 </style>
 
 <p><a href="{{ '/data/' | relative_url }}">← 返回数据分类</a></p>
@@ -34,3 +46,7 @@ nav: false
      <summary>详细介绍</summary>
      <p><strong><em>HydroSHEDS</em></strong> 数据库提供一系列全球数字数据层，支持全球水文生态研究和应用。其丰富的水文数据产品包括流域边界、河流网络和湖泊，涵盖多种分辨率和尺度。HydroSHEDS 数据以标准 GIS 格式免费提供，并构成广泛评估的地理空间框架，这些评估涵盖水文、环境、保护、社会经济和人类健康等领域。</p>
    </details>
+
+   <figure class="resource-figure">
+     <img src="{{ '/assets/img/data/hydrosheds-data-products.png' | relative_url }}" alt="HydroSHEDS 河流网络、人工修正与自然洼地数据示意图" loading="lazy" decoding="async">
+   </figure>
