@@ -24,6 +24,18 @@ nav: false
   .resource-details p {
     margin-top: 0.75rem;
   }
+
+  .resource-figure {
+    margin: 1.5rem 0 2rem;
+  }
+
+  .resource-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--global-divider-color, #dddddd);
+    border-radius: 0.5rem;
+  }
 </style>
 
 <p><a href="{{ '/data/' | relative_url }}">← 返回数据分类</a></p>
@@ -41,6 +53,10 @@ nav: false
      <summary>详细介绍</summary>
      <p><em>GDELT</em> 全球事件数据库是一套基于全球新闻媒体构建的开放式事件与社会信息数据库，用于持续监测世界各地的政治、经济、外交、冲突与社会活动。数据库综合全球网页、广播和纸媒新闻，并利用自然语言处理技术识别新闻中的事件主体、发生地点、组织机构、事件类型及报道语调等信息。目前 GDELT 监测覆盖全球 100 多种语言，历史数据可追溯至 1979 年，并以约 15 分钟频率持续更新。其核心数据包括 Event Database（事件数据库）、Mentions（事件报道记录）和 Global Knowledge Graph（全球知识图谱）等，可进一步识别抗议、制裁、军事冲突、外交合作等 300 余类事件，并构建国家间政治关系、地缘政治风险、双边冲突强度和媒体情绪等指标，广泛应用于国际贸易、国际投资、地缘政治、金融风险及全球供应链等研究。</p>
    </details>
+
+<figure class="resource-figure">
+  <img src="{{ '/assets/img/data/gdelt-global-network.png' | relative_url }}" alt="GDELT 全球事件与关系网络可视化" loading="lazy" decoding="async">
+</figure>
 
 3. [**_United Nations Global Migration Database_ 联合国全球移民数据库**](https://www.un.org/development/desa/pd/global-migration-database)
 
@@ -62,6 +78,10 @@ nav: false
      <summary>详细介绍</summary>
      <p><em>Orbis M&amp;A</em> 是 Moody’s 旗下的全球公司交易数据库，其前身为 Bureau van Dijk 的 Zephyr 数据库，主要收集全球并购、IPO、合资、私募股权和风险投资等交易及相关传闻信息。数据库能够识别收购方、目标方和其他交易参与者，并提供交易类型、交易状态、公告和完成日期、交易金额、持股比例、行业及交易顾问等信息；同时，Orbis M&amp;A 已直接整合进 Orbis 全球企业数据库，可通过企业标识进一步匹配企业财务状况、所有权结构和公司集团关系。公开资料显示，其欧洲交易历史可追溯至 1997 年，美国交易从 2001 年前后开始具有较系统覆盖，适用于企业并购、跨国投资、控制权转移以及并购创新效应等微观研究。</p>
    </details>
+
+<figure class="resource-figure">
+  <img src="{{ '/assets/img/data/global-cityscape.png' | relative_url }}" alt="全球城市与跨境投资主题城市景观" loading="lazy" decoding="async">
+</figure>
 
 6. [**_SDC Platinum_ 全球金融交易数据库**](https://www.lseg.com/en/data-analytics/products/sdc-platinum-financial-securities)
 
@@ -91,12 +111,20 @@ nav: false
      <p><em>Panjiva Supply Chain Intelligence</em> 是 S&amp;P Global Market Intelligence 提供的全球供应链与贸易关系数据库，主要基于海关申报、提单及货运记录识别企业之间的真实跨境交易关系。其基本观察单位为单笔货运或报关记录（shipment），可提供发货企业（Shipper）、收货企业（Consignee）、商品描述、HS/HTS 编码、贸易方向、装卸港口以及部分数据源中的交易金额、重量和数量等信息。当前官方页面显示，Panjiva 覆盖约 900 万家企业和 20 亿条以上货运记录，并可将企业实体与 S&amp;P Capital IQ Pro 公司信息进一步关联。数据库特别适合构建“出口企业—进口企业—产品—时间”层面的全球供应链网络，用于研究供应链重构、客户—供应商关系、贸易转移、地缘政治风险及企业全球化等问题。</p>
    </details>
 
+<figure class="resource-figure">
+  <img src="{{ '/assets/img/data/panjiva-coverage-map.png' | relative_url }}" alt="Panjiva 全球供应链数据覆盖国家地图" loading="lazy" decoding="async">
+</figure>
+
 10. [**_United Nations General Assembly Voting Data_ 联合国大会投票数据库**](https://digitallibrary.un.org/record/4060887/files)
 
     <details class="resource-details">
       <summary>详细介绍</summary>
       <p><em>United Nations General Assembly Voting Data（UNGA Voting Data）</em> 由联合国达格·哈马舍尔德图书馆基于联合国数字图书馆投票记录整理，用于系统记录各成员国在联合国大会决议中的表决立场。最新版数据覆盖自 1946 年 12 月 11 日第 1 号决议至 2025 年 12 月 30 日第 80/246 号决议的记名投票，共约 94.7 万条成员国—决议投票记录，每条记录对应某一成员国对某项决议的表决结果。数据库通常区分赞成（Yes）、反对（No）、弃权（Abstain）及未投票/缺席等状态，并包含决议编号、日期、议题和会议等信息。该数据可进一步构建国家间投票一致性、外交立场距离和政治相似度等指标，广泛应用于国际关系、地缘政治、国际贸易、跨国投资和全球治理等研究。</p>
     </details>
+
+<figure class="resource-figure">
+  <img src="{{ '/assets/img/data/unga-voting-map.png' | relative_url }}" alt="联合国大会成员国投票结果世界地图" loading="lazy" decoding="async">
+</figure>
 
 11. [**_China FTA Network_ 中国自由贸易区服务网**](http://fta.mofcom.gov.cn/)
 
@@ -146,6 +174,10 @@ nav: false
       <summary>详细介绍</summary>
       <p><em>PATSTAT（Worldwide Patent Statistical Database）</em> 由欧洲专利局（EPO）建设，是全球专利统计与创新研究中应用最广泛的基础数据库之一。数据库目前收录来自 100 多个国家和地区、超过 1.25 亿件专利申请，主要包括 PATSTAT Global 和 PATSTAT EP Register 两个模块。其中，PATSTAT Global 整合 EPO 全球书目数据库（DOCDB）和全球法律事件数据库（INPADOC），提供专利申请与公开信息、申请人和发明人、优先权、专利家族、技术分类、专利引用以及法律状态等数据；EP Register 则提供欧洲及 Euro-PCT 专利更详细的程序与法律信息。数据库通常每年更新两次，适用于构建专利数量、专利引用、知识流动、技术距离、专利合作网络和创新质量等指标，广泛应用于创新经济学、国际贸易、跨国投资和技术扩散研究。</p>
     </details>
+
+<figure class="resource-figure">
+  <img src="{{ '/assets/img/data/patstat-technology-network.png' | relative_url }}" alt="专利与技术知识网络可视化" loading="lazy" decoding="async">
+</figure>
 
 18. [**_Orbis Intellectual Property（OIP）_ 全球知识产权数据库**](https://www.moodys.com/web/en/us/capabilities/company-reference-data/data-applications/corporate-finance.html)
 
