@@ -67,4 +67,16 @@ nav_order: 5
     <p>贸易、投资、企业、制度、供应链、地缘政治与创新数据。</p>
     <span>查看数据 →</span>
   </a>
+
+  <a class="data-category-card" href="{{ '/data/how-to-use/' | relative_url }}">
+    <h2>如何使用</h2>
+    <p>数据访问、下载、整理、引用与复现的基本说明。</p>
+    <span>查看说明 →</span>
+  </a>
+
+  <a class="data-category-card" href="{{ '/data/references/' | relative_url }}">
+    <h2>相关文献</h2>
+    <p>整理使用相关数据库的代表性论文与研究资料。</p>
+    <span>查看文献 →</span>
+  </a>
 </div>
