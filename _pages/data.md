@@ -68,6 +68,12 @@ nav_order: 5
     <span>查看数据 →</span>
   </a>
 
+  <a class="data-category-card" href="{{ '/data/quantitative-history/' | relative_url }}">
+    <h2>量化历史经济数据</h2>
+    <p>历史行政区划、地名沿革、制度与空间经济数据。</p>
+    <span>查看数据 →</span>
+  </a>
+
   <a class="data-category-card" href="{{ '/data/how-to-use/' | relative_url }}">
     <h2>如何使用</h2>
     <p>数据访问、下载、整理、引用与复现的基本说明。</p>
