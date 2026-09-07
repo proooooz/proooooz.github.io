@@ -7,54 +7,94 @@ nav_order: 4
 ---
 
 <style>
-  .post article a,
-  .post article a:hover,
-  .post article a:focus {
+  .resource-category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .resource-category-card,
+  .resource-category-card:hover,
+  .resource-category-card:focus {
     color: var(--global-text-color);
+    text-decoration: none;
+  }
+
+  .resource-category-card {
+    display: block;
+    padding: 1.5rem;
+    border: 1px solid var(--global-divider-color, #dddddd);
+    border-radius: 0.5rem;
+    background: var(--global-card-bg-color, transparent);
+    transition:
+      border-color 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .resource-category-card:hover,
+  .resource-category-card:focus {
+    border-color: var(--global-theme-color, #2698ba);
+    transform: translateY(-2px);
+  }
+
+  .resource-category-card h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .resource-category-card p {
+    margin-bottom: 1rem;
+  }
+
+  .resource-category-card span {
+    color: var(--global-theme-color, #2698ba);
+    font-weight: 500;
   }
 </style>
 
-这里整理我在学习和研究过程中使用的课程、数据、工具与参考资料，内容会持续更新。
+请选择学习资源类别。进入分类页面后，可以直接访问课程、学者主页和会议网站。
 
-## QSE模型
+<div class="resource-category-grid">
+  <a class="resource-category-card" href="{{ '/resources/qse/' | relative_url }}">
+    <h2>QSE 模型</h2>
+    <p>数量空间经济学、城市经济学与空间经济学课程。</p>
+    <span>查看资源 →</span>
+  </a>
 
-1. [**山岸笃史**](https://sites.google.com/site/econyamagishi/teaching) — **応用ミクロ経済学B（都市・空間経済学）**
+  <a class="resource-category-card" href="{{ '/resources/econometrics/' | relative_url }}">
+    <h2>计量经济学</h2>
+    <p>本科计量经济学课程、讲义与配套资料。</p>
+    <span>查看资源 →</span>
+  </a>
 
-## 计量经济学
+  <a class="resource-category-card" href="{{ '/resources/advanced-macro/' | relative_url }}">
+    <h2>高级宏观经济学</h2>
+    <p>高级宏观理论、动态规划与 QuantEcon 课程。</p>
+    <span>查看资源 →</span>
+  </a>
 
-1. [刘岩](https://www.liuyanecon.com/) — [本科—计量经济学 2025](https://www.liuyanecon.com/ug-em-2025/)
+  <a class="resource-category-card" href="{{ '/resources/hank/' | relative_url }}">
+    <h2>HANK</h2>
+    <p>异质性代理人宏观、财政货币政策与计算方法。</p>
+    <span>查看资源 →</span>
+  </a>
 
-## 高级宏观经济学
+  <a class="resource-category-card" href="{{ '/resources/economists/' | relative_url }}">
+    <h2>经济学家</h2>
+    <p>经济学、政治经济学与量化历史研究学者主页。</p>
+    <span>查看学者 →</span>
+  </a>
 
-1. [刘岩](https://www.liuyanecon.com/) — [Advanced Macro I 2025](https://www.liuyanecon.com/adv-macro-i-2025/)
-2. MIT — [宏观经济理论 I](https://ocw.mit.edu/courses/14-451-macroeconomic-theory-i-spring-2007/)（[课程大纲](https://ocw.mit.edu/courses/14-451-macroeconomic-theory-i-spring-2007/pages/syllabus/)）
-3. [_托马斯·J·萨金特_](https://www.tomsargent.com/) — [**动态规划**](https://dp.quantecon.org/index.html)
-4. [_托马斯·J·萨金特_](https://www.tomsargent.com/) — [QuantEcon](https://quantecon.org/)
+  <a class="resource-category-card" href="{{ '/resources/conferences/' | relative_url }}">
+    <h2>会议</h2>
+    <p>经济学研究机构、学会与重要学术会议。</p>
+    <span>查看会议 →</span>
+  </a>
 
-## HANK
-
-1. [本杰明·莫尔](https://benjaminmoll.com/lectures/)
-2. [**2026年歌德学院异构代理宏观研讨会**](https://github.com/shade-econ/goethe-workshop-2026)
-3. [葡萄牙银行：异质主体下的财政和货币政策](https://web.stanford.edu/~aauclert/bopmini/)
-4. [**北大-苏黎世博士生暑期学校：宏观经济与金融机器学习（2026）**](https://github.com/yangycpku/ML_Macro_Finance_Summer2026)
-
-## 经济学家
-
-1. [阿德里安·奥克莱特](https://aauclert.people.stanford.edu/)（[**斯坦福大学经济系**](https://economics.stanford.edu/)）
-2. [刘岩](https://www.liuyanecon.com/)（中山大学[管理学院](https://bschool.sysu.edu.cn/)）
-3. [徐一清](https://yiqingxu.org/)（斯坦福大学政治学系）
-4. [陈硕](https://www.frankchenshuo.com/aboutme.html)（复旦大学经济系）
-5. [**西蒙·谢德格尔**](https://sischei.github.io/)（[**洛桑高等商学院经济系**](https://www.unil.ch/de/home.html)）
-6. [艾萨克·贝利](https://www.isaacbaley.com/)（[**庞培法布拉大学**](https://www.upf.edu/es/web/econ/profesores/-/asset_publisher/6aWmmXf28uXT/content/baley-isaac/maximized)）
-
-## 会议
-
-1. [**CREI**](https://crei.cat/)
-2. [经济动态学会年会](https://economicdynamics.org/)（SED）
-
-## 数学
-
-1. MIT — [**实分析**](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/)
-2. MIT — [泛函分析导论](https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/)
-3. 林希偉（台科大）— [统计学](https://sites.google.com/view/shiwoei/statistical_data_analysis_and_applications_2026s)
-4. **杨亚宁（中科大）** — [多元统计分析](http://staff.ustc.edu.cn/~ynyang/vector/)
+  <a class="resource-category-card" href="{{ '/resources/mathematics/' | relative_url }}">
+    <h2>数学</h2>
+    <p>实分析、泛函分析、统计学与多元统计分析。</p>
+    <span>查看资源 →</span>
+  </a>
+</div>
