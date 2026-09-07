@@ -74,3 +74,14 @@ nav: false
    <figure class="resource-figure">
      <img src="{{ '/assets/img/data/reaches-disaster-density-map.png' | relative_url }}" alt="REACHES 中国历史灾害记录密度空间分布图" loading="lazy" decoding="async">
    </figure>
+
+3. [**_China Biographical Database_（CBDB，中国人物传记数据库）**](https://cbdb.hsites.harvard.edu/)
+
+   <details class="resource-details">
+     <summary>详细介绍</summary>
+     <p><em>China Biographical Database</em>（CBDB，中国人物传记数据库）是一套面向中国历史人物研究的开放关系型数据库，由哈佛大学费正清中国研究中心、中央研究院历史语言研究所和北京大学中国古代史研究中心共同建设。根据项目官网 2026 年 5 月公布的信息，在线库已收录约 657,909 名历史人物，目前主要覆盖公元 7—19 世纪，并持续补充唐、五代、辽、宋、金、元、明、清等时期的人物资料。CBDB 既可作为人物传记资料库使用，也专门支持统计分析、社会网络分析与空间分析。</p>
+     <p>CBDB 以人物为中心，将分散于正史、地方志、墓志、文集、科举录、官员名录和研究成果中的信息整理为彼此关联的数据表。主要内容包括姓名与异名、生卒年及推定的指数年、性别、籍贯和其他地点关系、入仕途径与科举经历、历任官职、亲属关系、社会交往、著述与资料来源等。研究者可以利用人物唯一编号连接不同表格，进而构建“人物—时间—地点”“人物—官职”以及“人物—人物”层面的结构化数据。</p>
+     <p>在数据获取方面，项目提供<a href="https://cbdb.hsites.harvard.edu/download-cbdb-standalone-database">独立数据库下载页</a>。截至 2026 年 6 月，最新可下载学术版为 CBDB BJ 20260602，包含 649,533 名人物，并提供 Microsoft Access 与 <a href="https://github.com/cbdb-project/cbdb_sqlite">SQLite</a> 格式。在线库会更及时地纳入新增记录，因此其人物数量可能高于定期发布的可下载版本。项目还提供 <a href="https://cbdb.hsites.harvard.edu/cbdb-api">CBDB API</a>，可按人物编号或中文、拼音姓名查询，并返回 HTML 或 JSON 数据；进行可复现研究时，应记录所用数据库版本、下载日期、表结构和筛选条件。</p>
+     <p>在量化历史与历史经济学研究中，CBDB 可用于识别官员仕途和政治精英流动，构建亲属、婚姻、同年、师生、同僚及其他社会关系网络，并研究科举制度、家族延续、社会流动、政治竞争、知识传播和区域人才分布。人物地点信息还可与 CHGIS 等历史地理数据匹配，以构建历史县、府或省层面的官员来源、人才密度、关系网络中心度和跨地区流动指标。项目网站整理了<a href="https://cbdb.hsites.harvard.edu/publications-use-cbdb-data">使用 CBDB 数据的代表性文献</a>，可用于查找变量构造与研究设计范例。</p>
+     <p>使用 CBDB 时需要注意其<strong>史料覆盖和人物收录并非总体抽样</strong>。现存资料更集中于男性、官员、士人和政治文化精英，不同时期、地区、身份群体及资料来源的记录密度也存在明显差异；“没有记录”不能直接解释为某种关系、经历或活动没有发生。姓名异写、同名人物、推定年份、官职名称变迁和历史地点转换也可能带来匹配误差。因此，实证分析应保留 CBDB 人物编号与原始来源，说明样本进入标准，对关键人物和关系进行抽样核验，并对年代、地区及史料密度差异进行控制或稳健性检验。</p>
+   </details>
