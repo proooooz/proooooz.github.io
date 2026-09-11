@@ -50,3 +50,11 @@ nav: false
    <figure class="resource-figure">
      <img src="{{ '/assets/img/data/hydrosheds-data-products.png' | relative_url }}" alt="HydroSHEDS 河流网络、人工修正与自然洼地数据示意图" loading="lazy" decoding="async">
    </figure>
+
+2. [**_中国城市洪涝事件（2003—2022）_ 数据集**](https://zenodo.org/records/17775123)
+
+   <details class="resource-details">
+     <summary>详细介绍</summary>
+     <p><strong><em>中国城市洪涝事件（2003—2022）</em></strong> 数据集整理了中国 285 个地级市政府工作报告中识别出的城市洪涝事件，并提供这些城市的行政边界数据。其城市—年份面板覆盖 2003—2022 年，共包含 5,700 条记录；其中 <code>count</code> 变量表示某城市当年政府工作报告中识别出的洪涝事件次数，数值为 0 表示报告中未提及洪涝事件，数值不小于 1 表示识别到洪涝事件。</p>
+     <p>数据文件包括 UTF-8 编码的 <code>Urban_Flood_Counts_2003_2022.csv</code>，以及包含 285 个城市空间边界文件的 <code>City_Boundaries_GPKG.zip</code>。边界数据采用 GeoPackage 格式与 WGS84 坐标参考系统（EPSG:4326），文件名可与 CSV 中的城市名称对应。该数据集由 ZHU, Honglin 发布于 Zenodo，版本为 v1，DOI 为 <a href="https://doi.org/10.5281/zenodo.17775123">10.5281/zenodo.17775123</a>，适用于城市洪涝风险、区域灾害差异、气候适应与空间面板分析等研究。</p>
+   </details>
