@@ -1,5 +1,9 @@
 # Agent Guidelines for al-folio (v1.x)
 
+## Personal Site Continuation
+
+When maintaining the personal website published at `https://proooooz.github.io/`, read `docs/CODEX_CONTINUATION.md` before editing or publishing. It records the authoritative repository, local workspace state, page map, validation steps, and safe release workflow for this customized site.
+
 `al-folio` is the **starter repo** for the pluginized v1 architecture.
 
 ## Read This First
