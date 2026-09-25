@@ -144,7 +144,7 @@ nav: false
 
     <details class="resource-details">
       <summary>详细介绍</summary>
-      <p><em>Worldwide Governance Indicators（WGI）</em> 是世界银行用于衡量各国和地区治理质量的全球数据库，提供 1996—2024 年 200 多个经济体的年度治理指标。WGI 基于家庭调查、企业调查和专家评估等 35 个跨国数据来源，综合 400 多个底层指标形成六个核心治理维度，包括：话语权与问责（Voice and Accountability）、政治稳定与无暴力/恐怖主义（Political Stability）、政府效能（Government Effectiveness）、监管质量（Regulatory Quality）、法治水平（Rule of Law）和腐败控制（Control of Corruption）。最新版 WGI 同时提供标准化治理估计值和 0—100 绝对得分，可用于衡量制度质量、政治稳定性、政府治理能力和营商制度环境，广泛应用于国际贸易、跨国投资、制度经济学和政治经济学研究。</p>
+      <p><em>Worldwide Governance Indicators（WGI）</em> 是世界银行用于衡量各国和地区治理质量的全球数据库，覆盖 1996 年以来 200 多个经济体，并按年度更新（通常在每年 10 月发布）。世界银行将治理定义为一个国家行使公共权力的传统与制度，包括政府的选任、监督与更替，制定和执行政策的能力，以及国家和公民对经济社会交往制度的尊重。WGI 基于家庭和企业调查、专家评估以及国际组织、非政府组织和商业机构等 35 个数据来源，综合底层变量形成六个维度：话语权与问责（Voice and Accountability）、政治稳定（Political Stability）、政府效能（Government Effectiveness）、监管质量（Regulatory Quality）、法治（Rule of Law）和腐败控制（Control of Corruption）。各来源变量先按方向重标度，再通过无观测成分模型（Unobserved Components Model，UCM）进行加权聚合，生成各维度的治理估计值；2025 年更新还引入了固定基准国家锚定的 0—100 绝对得分，并将修订后的历史估计回溯至 1996 年。WGI 提供 90% 置信区间（误差范围），因此更适合用于宽泛的跨国比较和长期趋势分析；当置信区间重叠时，不宜把小幅国家差异或年度变化解读为有统计或实际意义的治理变化。WGI 可用于衡量制度质量、政治稳定性、政府治理能力和营商制度环境，广泛应用于国际贸易、跨国投资、制度经济学和政治经济学研究；具体指标、原始数据、可复现程序与方法说明可参见[世界银行 WGI 常见问题（FAQ）](https://www.worldbank.org/en/publication/worldwide-governance-indicators/frequently-asked-questions)。</p>
     </details>
 
 14. [**_CEPII Databases_ 法国国际展望与信息研究中心数据库**](https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele.asp)
