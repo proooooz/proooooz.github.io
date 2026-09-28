@@ -22,3 +22,4 @@ nav: false
 5. [**西蒙·谢德格尔**](https://sischei.github.io/)（[**洛桑高等商学院经济系**](https://www.unil.ch/de/home.html)）
 6. [艾萨克·贝利](https://www.isaacbaley.com/)（[**庞培法布拉大学**](https://www.upf.edu/es/web/econ/profesores/-/asset_publisher/6aWmmXf28uXT/content/baley-isaac/maximized)）
 7. [**王玉华**](https://yuhuawang.scholars.harvard.edu/)（[福特基金会现代中国研究教授兼哈佛学院教授](https://yuhuawang.scholars.harvard.edu/)；[学术服务与学术共同体](https://yuhuawang.scholars.harvard.edu/service)）
+8. [Melanie Meng Xue](https://www.melaniexue.net/)（伦敦政治经济学院经济史助理教授；欧洲经济政策研究中心研究附属学者）
