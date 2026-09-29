@@ -74,6 +74,12 @@ nav_order: 5
     <span>查看数据 →</span>
   </a>
 
+  <a class="data-category-card" href="{{ '/data/political-economy/' | relative_url }}">
+    <h2>政治经济</h2>
+    <p>政治、劳工、土地、环境与社会事件资料来源。</p>
+    <span>查看数据 →</span>
+  </a>
+
   <a class="data-category-card" href="{{ '/data/how-to-use/' | relative_url }}">
     <h2>如何使用</h2>
     <p>数据访问、下载、整理、引用与复现的基本说明。</p>
