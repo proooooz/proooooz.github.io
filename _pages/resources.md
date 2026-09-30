@@ -68,6 +68,12 @@ nav_order: 4
     <span>查看资源 →</span>
   </a>
 
+  <a class="resource-category-card" href="{{ '/resources/microeconomics/' | relative_url }}">
+    <h2>微观经济学</h2>
+    <p>研究生微观理论讲义、博弈论与 MIT 微观理论课程。</p>
+    <span>查看资源 →</span>
+  </a>
+
   <a class="resource-category-card" href="{{ '/resources/econometrics/' | relative_url }}">
     <h2>计量经济学</h2>
     <p>本科计量经济学课程、讲义与配套资料。</p>
