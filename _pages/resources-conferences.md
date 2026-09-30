@@ -17,3 +17,4 @@ nav: false
 
 1. [**CREI**](https://crei.cat/)
 2. [经济动态学会年会](https://economicdynamics.org/)（SED）
+3. [Cowles Foundation for Research in Economics — 研究与讨论论文](https://cowles.yale.edu/research)
