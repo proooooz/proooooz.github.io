@@ -86,6 +86,18 @@ nav_order: 4
     <span>查看资源 →</span>
   </a>
 
+  <a class="resource-category-card" href="{{ '/resources/development-economics/' | relative_url }}">
+    <h2>发展经济学</h2>
+    <p>发展政策、发展宏观与发展微观课程资料。</p>
+    <span>查看资源 →</span>
+  </a>
+
+  <a class="resource-category-card" href="{{ '/resources/political-economy/' | relative_url }}">
+    <h2>政治经济学</h2>
+    <p>政治经济学理论、制度与发展课程资料。</p>
+    <span>查看资源 →</span>
+  </a>
+
   <a class="resource-category-card" href="{{ '/resources/economists/' | relative_url }}">
     <h2>经济学家</h2>
     <p>经济学、政治经济学与量化历史研究学者主页。</p>
