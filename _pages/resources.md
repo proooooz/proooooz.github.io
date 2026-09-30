@@ -62,6 +62,12 @@ nav_order: 4
     <span>查看资源 →</span>
   </a>
 
+  <a class="resource-category-card" href="{{ '/resources/mechanism-design/' | relative_url }}">
+    <h2>机制设计</h2>
+    <p>机制设计及相关微观经济理论课程资料。</p>
+    <span>查看资源 →</span>
+  </a>
+
   <a class="resource-category-card" href="{{ '/resources/econometrics/' | relative_url }}">
     <h2>计量经济学</h2>
     <p>本科计量经济学课程、讲义与配套资料。</p>
