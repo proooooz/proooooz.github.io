@@ -29,3 +29,4 @@ nav: false
 12. [宋铮（Zheng Michael Song）](https://www.michael-song.org/)（香港中文大学韦伦经济学教授、经济学系主任；研究宏观经济学与中国经济）
 13. [魏尚进（Shang-Jin Wei）](https://users.nber.org/~wei/)（哥伦比亚大学经济学与金融学教授、N.T. Wang 中国商业与经济讲席教授；[哥伦比亚大学教师介绍](https://www.sipa.columbia.edu/communities-connections/faculty/shang-jin-wei)）
 14. [熊伟（Wei Xiong）](https://ccc.princeton.edu/people/wei-xiong)（普林斯顿大学金融学讲席教授、经济学教授；研究行为金融、中国金融；[个人网站](http://www.princeton.edu/~wxiong/)）
+15. [Yuriy Gorodnichenko](https://eml.berkeley.edu/~ygorodni/)（加州大学伯克利分校经济学教授）
