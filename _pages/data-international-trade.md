@@ -273,3 +273,18 @@ nav: false
     <figure class="resource-figure">
       <img src="{{ '/assets/img/data/telegeography-network-map.png' | relative_url }}" alt="TeleGeography 全球通信网络与海底光缆连接地图" loading="lazy" decoding="async">
     </figure>
+
+
+31. [**_COLT Dataset（Country and Organization Leader Travel）_ 国家与国际组织领导人出访数据库**](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FHJK7DN)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>Country and Organization Leader Travel（COLT）</em> 数据集由丹佛大学 Pardee Institute 的 Diplometrics 项目建设，系统记录国家元首、政府首脑、部分政府部长及国际政府间组织领导人的国际出访。数据以单次领导人出访为观察单位，官方项目页面标注的时间范围为 1990 年至今，覆盖 200 多个国家和国际组织；部长级出访包括美国、俄罗斯和中国（1990 年至今），以及 G20 成员国的外交、国防和财政部长（2018 年至今）。记录依据政府和国际组织网站、公开行程、官方社交媒体等资料整理，并提供数据字典、编码规则和来源信息，便于核验出访性质。数据库可用于构建“出访方—东道国—时间”层面的外交互动指标，研究高层访问与双边贸易、投资、外交关注和地缘政治关系之间的联系。<a href="https://korbel.du.edu/pardee/country-organization-leader-travel/">官方项目介绍</a>提供数据与 codebook 入口；相关数据论文发表于 <em>International Studies Quarterly</em>（2025）。</p>
+    </details>
+
+32. [**_China Visits_ 中国领导人出访数据库**](https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs11558-022-09459-z/MediaObjects/11558_2022_9459_MOESM1_ESM.zip)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>China Visits</em> 数据集记录中国国家主席和国务院总理对外国进行的正式访问，覆盖 1998—2020 年，包含善意访问、工作访问、正式访问和国事访问等。数据按访问事件记录，并提供访问日期、持续时间、是否涉及多边会议、多国行程中的访问顺序等信息；每次访问均附有官方来源文件以供核验，并按年份及世界银行、Correlates of War（COW）国家编码整理，便于与其他国家层面数据匹配。数据库及复现代码由论文补充材料公开提供，可据此构建中国与访问对象国之间的年度高层外交联系指标，适用于研究经济外交、双边贸易、对外直接投资及国际关系。数据与方法详见 <a href="https://link.springer.com/article/10.1007/s11558-022-09459-z">Wang 与 Stone（2023），“China visits: a dataset of Chinese leaders’ foreign visits”</a>。</p>
+    </details>
