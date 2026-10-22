@@ -40,6 +40,25 @@ nav: false
 
 <p><a href="{{ '/data/' | relative_url }}">← 返回数据分类</a></p>
 
+## 数据筛选概览
+
+以下为新增数据源的初步筛选信息；“中国联系”、获取难度和优先程度为研究选题判断，实际覆盖、许可和可用字段应以具体版本及机构授权为准。
+
+| 数据 | 适合做中国联系 | 历史面板 | 获取难度 | 优先程度 |
+| --- | --- | --- | --- | --- |
+| GTMD 全球人员流动 | 高 | 1995—2022 | 低 | 最高 |
+| Panjiva 企业交易网络 | 极高 | 中国 2011—2018 等 | 高 | 最高 |
+| FactSet 全球供应链 | 极高 | 2003 年至今 | 高 | 最高 |
+| OECD 全球专利引文 | 极高 | 长期历史 | 中高 | 很高 |
+| Oxford DEMIG VISA | 高 | 1973—2013 | 低中 | 很高 |
+| BIS–SWIFT 支付网络 | 高 | 部分历史年份 | 中 | 很高 |
+| OAG 国际航空中转 | 极高 | 20 年以上时刻表历史 | 高 | 很高 |
+| Open Ownership 股权关系 | 高 | 较短、覆盖不均 | 中 | 高 |
+| LinkedIn 人才迁移 | 待核查 | 2015 年以后部分年份 | 低 | 中 |
+| 全球船东—船旗网络 | 高 | 2014—2026 | 中 | 高 |
+| 国际电话流量 | 高 | 长历史、双边有限 | 高 | 中 |
+
+
 1. [**_World Sentiment Index_（WSI，世界情绪指数）**](https://worlduncertaintyindex.com/data/)
 
    <details class="resource-details">
@@ -101,14 +120,14 @@ nav: false
 
    <details class="resource-details">
      <summary>详细介绍</summary>
-     <p><em>FactSet Revere Supply Chain Relationships</em> 是 FactSet 提供的全球企业供应链关系数据库，用于识别企业之间的客户、供应商、竞争者和战略合作伙伴关系。数据库基于上市公司年报、监管披露及其他公开信息整理企业间关系，并同时记录企业主动披露的直接关系以及由交易对手披露所反向识别的关系，可区分客户（Customer）、供应商（Supplier）、竞争者（Competitor）和合作伙伴（Partner）等类型。其供应链关系历史数据可追溯至 2003 年，能够与 FactSet 企业财务、行业分类和实体标识进行匹配，从而构建“企业—企业—年份”层面的全球供应链网络，广泛用于研究供应链冲击传导、客户—供应商依赖、产业链韧性、企业风险以及地缘政治冲击下的供应链重构。</p>
+     <p><em>FactSet Revere Supply Chain Relationships</em> 是 FactSet 提供的全球企业供应链关系数据库，用于识别企业之间的客户、供应商、竞争者和战略合作伙伴关系。数据库基于上市公司年报、监管披露及其他公开信息整理企业间关系，并同时记录企业主动披露的直接关系以及由交易对手披露所反向识别的关系，可区分客户（Customer）、供应商（Supplier）、竞争者（Competitor）和合作伙伴（Partner）等类型。其供应链关系历史数据可追溯至 2003 年，能够与 FactSet 企业财务、行业分类和实体标识进行匹配，从而构建“企业—企业—年份”层面的全球供应链网络，广泛用于研究供应链冲击传导、客户—供应商依赖、产业链韧性、企业风险以及地缘政治冲击下的供应链重构。 FactSet Revere 记录的是公开披露识别出的企业关系，并非对所有企业、所有交易的完整普查；历史与中国企业覆盖取决于披露和产品版本，通常需要机构或商业订阅。</p>
    </details>
 
 9. [**_Panjiva Supply Chain Intelligence_ 全球供应链数据库**](https://www.spglobal.com/market-intelligence/en/solutions/products/panjiva-supply-chain-intelligence)
 
    <details class="resource-details">
      <summary>详细介绍</summary>
-     <p><em>Panjiva Supply Chain Intelligence</em> 是 S&amp;P Global Market Intelligence 提供的全球供应链与贸易关系数据库，主要基于海关申报、提单及货运记录识别企业之间的真实跨境交易关系。其基本观察单位为单笔货运或报关记录（shipment），可提供发货企业（Shipper）、收货企业（Consignee）、商品描述、HS/HTS 编码、贸易方向、装卸港口以及部分数据源中的交易金额、重量和数量等信息。当前官方页面显示，Panjiva 覆盖约 900 万家企业和 20 亿条以上货运记录，并可将企业实体与 S&amp;P Capital IQ Pro 公司信息进一步关联。数据库特别适合构建“出口企业—进口企业—产品—时间”层面的全球供应链网络，用于研究供应链重构、客户—供应商关系、贸易转移、地缘政治风险及企业全球化等问题。</p>
+     <p><em>Panjiva Supply Chain Intelligence</em> 是 S&amp;P Global Market Intelligence 提供的全球供应链与贸易关系数据库，主要基于海关申报、提单及货运记录识别企业之间的真实跨境交易关系。其基本观察单位为单笔货运或报关记录（shipment），可提供发货企业（Shipper）、收货企业（Consignee）、商品描述、HS/HTS 编码、贸易方向、装卸港口以及部分数据源中的交易金额、重量和数量等信息。当前官方页面显示，Panjiva 覆盖约 900 万家企业和 20 亿条以上货运记录，并可将企业实体与 S&amp;P Capital IQ Pro 公司信息进一步关联。数据库特别适合构建“出口企业—进口企业—产品—时间”层面的全球供应链网络，用于研究供应链重构、客户—供应商关系、贸易转移、地缘政治风险及企业全球化等问题。 Stanford 图书馆的覆盖说明列出中国记录约为 2011—2018 年；不同来源国的起始年份、运输方式和字段并不一致，不能视为全球统一口径的完整海关普查，通常需机构或商业订阅。</p>
    </details>
 
    <figure class="resource-figure">
@@ -287,4 +306,67 @@ nav: false
     <details class="resource-details">
       <summary>详细介绍</summary>
       <p><em>China Visits</em> 数据集记录中国国家主席和国务院总理对外国进行的正式访问，覆盖 1998—2020 年，包含善意访问、工作访问、正式访问和国事访问等。数据按访问事件记录，并提供访问日期、持续时间、是否涉及多边会议、多国行程中的访问顺序等信息；每次访问均附有官方来源文件以供核验，并按年份及世界银行、Correlates of War（COW）国家编码整理，便于与其他国家层面数据匹配。数据库及复现代码由论文补充材料公开提供，可据此构建中国与访问对象国之间的年度高层外交联系指标，适用于研究经济外交、双边贸易、对外直接投资及国际关系。数据与方法详见 <a href="https://link.springer.com/article/10.1007/s11558-022-09459-z">Wang 与 Stone（2023），“China visits: a dataset of Chinese leaders’ foreign visits”</a>。</p>
+    </details>
+
+33. [**_Global Trade and Migration Database（GTMD 2.0）_ 全球人员流动数据库**](https://zenodo.org/records/19691950)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>Global Trade and Migration Database（GTMD 2.0）</em> 汇集并协调国家间人员跨境流动统计，提供 1995—2022 年的年度国家对流量，覆盖 230 多个国家和地区。它适合构建“来源国—目的国—年份”面板，分析人员流动与贸易、投资、旅游及移民联系；但指标主要是统计口径下的跨境出行/流动估计，并非可识别个人的迁移轨迹，也不应直接等同于移民存量。数据与复现材料可从 Zenodo 记录获取，使用前应核对版本说明、来源和许可条款。</p>
+    </details>
+
+34. [**_OECD Citations Database_ OECD 全球专利引文数据库**](https://www.oecd.org/en/data/datasets/intellectual-property-statistics.html)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>OECD Citations Database</em> 汇集专利文献引用的专利文献和非专利文献信息，可用于追踪技术知识来源、知识扩散和跨国创新联系。其引文样本与专利局及相关专利数据库的覆盖范围相连，适合把专利申请人、发明人或专利族之间的引用关系整理为“来源—引用对象—年份”网络，并研究中国与其他经济体的知识联系。它不是所有国家专利的完整引文普查；中国相关样本取决于专利进入 EPO、USPTO、PCT 等数据库的情况。OECD 页面说明该数据通常需通过申请获得受控访问，实际可用年份和字段应以获批的数据版本为准。</p>
+    </details>
+
+35. [**_DEMIG VISA_ 牛津国际移民研究所签证要求数据库**](https://doi.org/10.1111/padr.12166)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>DEMIG VISA</em> 记录 1973—2013 年各目的地对不同国籍普通护照持有者设置的入境签证要求，可据此构造国家对层面的旅行限制和签证开放度指标。数据覆盖约 214 个目的地及 237 个国籍/属地，适合研究签证政策与移民、旅游、贸易和人员往来的关系；它记录的是是否需要签证等制度要求，不是签证申请、获批或实际出行人数。数据库基于 IATA 旅行信息等资料整理，适用范围不包括所有签证类别。原项目的完整数据表当前获取路径需核实，可先查看论文及其配套说明。</p>
+    </details>
+
+36. [**_BIS–SWIFT Correspondent Banking and Payments Data_ BIS–SWIFT 支付网络数据**](https://www.bis.org/committees/cpmi/payment.htm)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p>BIS 支付统计及其关于代理行（correspondent banking）的研究使用 SWIFT 等来源描述跨境支付消息和代理行网络，可用于考察跨境支付联系、代理行关系变化及金融基础设施与贸易融资之间的关联。公开材料以汇总统计和部分历史网络指标为主，具体国家对、金额或消息层面的数据可得性有限，部分底层数据属于受限或商业数据；因此不能把公开汇总指标当成完整的双边支付交易面板，也不能从中直接识别每笔贸易结算。适合先用公开统计做国家层面的联系指标，再根据研究设计确认是否需要申请或购买更细数据。</p>
+    </details>
+
+37. [**_OAG Flight Connections / Schedules_ 国际航空中转与航班时刻数据库**](https://www.oag.com/flight-data-connections)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>OAG</em> 提供全球航班时刻、机场连接和潜在中转路径数据，可按机场、航空公司、航班、时刻及最短中转时间等信息构造“城市/机场—城市/机场—时间”航空可达性网络。其航班时刻历史可达 20 年以上，适合研究中国城市国际连通性、航空网络变化与贸易、投资和旅游联系；Connections 产品识别的是依据时刻表推算的可行连接，不等同于实际售票行程、旅客流量或已完成的中转。数据产品通常需商业授权，具体历史深度和字段取决于订阅方案。</p>
+    </details>
+
+38. [**_Open Ownership Register / BODS_ 全球受益所有权与股权关系数据**](https://register.openownership.org/)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>Open Ownership Register</em> 汇集部分国家和地区公开披露的企业受益所有权记录，并以 Beneficial Ownership Data Standard（BODS）等标准组织数据；可用于识别企业、股东/受益所有人及控制关系，并与企业注册和跨境投资研究相结合。公开登记和批量数据工具可供检索或下载，但国家参与、历史长度、实体匹配和字段完整度差异很大，不能视为覆盖全球企业的统一股权普查。中国相关实体及跨境所有权链的覆盖需逐项核查；法律实体间的持股链也不必然能识别最终自然人受益所有者。另见 <a href="https://bods-data.openownership.org/">BODS 数据工具</a>。</p>
+    </details>
+
+39. [**_LinkedIn Talent Migration_ LinkedIn 人才迁移数据**](https://datacatalog.worldbank.org/search/dataset/0038044/talent-migration-linkedin-data)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p><em>LinkedIn Talent Migration</em> 基于 LinkedIn 会员资料中记录的国家/地区变动，提供按技能、行业等维度汇总的人才迁移趋势，可用于研究人才流动与创新、就业、国际投资及贸易网络的联系。世界银行数据目录列有该数据及相关文件，但不同发布版本的时间覆盖并不完全一致，目录元数据与更新文件可能对应不同年份；应逐个文件核对其年份、口径和许可。数据只反映平台会员，受平台覆盖、用户构成和资料更新行为影响，不代表总体人口或全部实际迁移。中国联系强度需要先检查中国样本与可用年份。</p>
+    </details>
+
+40. [**_UNCTADstat Fleet Beneficial Owners_ 全球船东—船旗相关数据**](https://unctadstat.unctad.org/datacentre/dataviewer/US.FleetBeneficialOwners)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p>UNCTADstat 的船队受益所有人数据按船舶类型、船东经济体及船旗登记信息刻画全球船队所有权结构，相关年度序列可用于分析船舶所有权与注册地分离、航运能力和海运网络变化。公开指标的时间序列可延伸至 2014—2026 年（以页面当前版本为准），但公开表格主要提供汇总或国别维度，未必包含完整的“船东国—每个船旗国”双边船舶级网络；部分底层信息依赖商业航运数据库。用于中国研究时，应区分船舶受益所有人所在地、船旗登记国和运营地，避免将三者混为一谈。</p>
+    </details>
+
+41. [**_International Telephone Traffic_ 国际电话流量数据库**](https://www.princeton.edu/~ina/telephone/index.html)
+
+    <details class="resource-details">
+      <summary>详细介绍</summary>
+      <p>普林斯顿大学 International Networks Archive 汇集历史国际电话流量资料，提供部分国家间电话通话流量表及全球电话统计文件，可用于重建早期通信联系并研究国际联系、贸易和人员流动。公开存档包含 1990 年代至 2000 年前后的历史材料，国家对口径和年份覆盖有限，缺失并不代表没有通信流量，也不是连续至今的完整双边面板。存档可作为历史研究起点；当代国际通信网络和双边带宽/流量数据通常需要查阅 TeleGeography 等商业数据库并确认授权。</p>
     </details>
